@@ -12,7 +12,7 @@ import (
 
 var getInfoCmd = &cobra.Command{
 	Use:   "info",
-	Short: "Retrieve blockchain infos, like head block, chain ID, etc..",
+	Short: "Retrieve blockchain info, such as head block number, LIB, chain ID, current Producer, CPU/Net limits.",
 	Run: func(cmd *cobra.Command, args []string) {
 		api := getAPI()
 
