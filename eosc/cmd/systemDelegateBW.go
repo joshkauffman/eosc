@@ -11,24 +11,24 @@ import (
 
 var systemDelegateBWCmd = &cobra.Command{
 	Use:   "delegatebw [from] [receiver] [network bw stake qty] [cpu bw stake qty]",
-	Short: "Delegate some CPU and Network bandwidth, to yourself or others.",
-	Long: `Delegate some CPU and Network bandwidth, to yourself or others.
+	Short: "Delegate CPU and Network bandwidth to yourself or another user’s account.",
+	Long: `Delegate CPU and Network bandwidth to yourself or another user’s account.
 
 Bandwidth on EOS allows you to submit transactions on the network.
 
 Delegating bandwidth (oftentimes called "staking") and locking it up
-for 72 hours has two effects: increasing your voting power, and
-increasing the bandwidth you're allocated to use the network.
+has two effects: increasing your voting power, and
+increasing the bandwidth you're allocated to use by the network.
 
-CPU bandwidth means the time taken by Block Producers (in micro or
-milliseconds) to process your transaction.
+CPU bandwidth means the time taken by Block Producers in microseconds
+to process your transaction.
 
 Network bandwidth means the number of bytes your transaction consumes
 when propagating your transaction on the network, and finally putting
-it in a block.
+it into a block.
 
-Those two sorts of bandwidth have burst capacity, and once used, will
-both re-increase as time goes by.
+Those two types of bandwidth have burst capacity, and once used, will
+both regenerate over time.
 
 The --transfer option makes it so the receiver will be able to unstake
 what was delegated to them, and receive the corresponding EOS back. It
