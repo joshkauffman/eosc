@@ -15,13 +15,13 @@ var systemBidnameCmd = &cobra.Command{
 
 All fields are required. Example usage:
 
-    eosc system bidname your_account_name eos "10.0000 EOS"
+    eosc system bidname [your_account_name] [name_to_bid_on] [EOS_quantity]
 
-Please note you could be locking up your funds in the name bidding
-auction if you don't intend to go through and being the highest
-bidder.
+Please note that your funds will be locked up until
+you are awarded the namespace, or you are outbid.
 
-Read https://steemit.com/eos/@eos-canada/everything-you-need-to-know-about-namespace-bidding-on-eos for more infos.
+
+Read https://steemit.com/eos/@eos-canada/everything-you-need-to-know-about-namespace-bidding-on-eos for more info.
 `,
 	Args: cobra.ExactArgs(3),
 	Run: func(cmd *cobra.Command, args []string) {
