@@ -8,13 +8,13 @@ import (
 
 var systemUndelegateBWCmd = &cobra.Command{
 	Use:   "undelegatebw [from] [receiver] [network bw unstake qty] [cpu bw unstake qty]",
-	Short: "Undelegate some CPU and Network bandwidth.",
-	Long: `Undelegate some CPU and Network bandwidth.
+	Short: "Undelegate CPU and Network bandwidth.",
+	Long: `Undelegate CPU and Network bandwidth.
 
 When undelegating bandwidth, a "refund" action will automatically be
 triggered and delayed for 72 hours.  This means it takes 3 days for
-you to get your EOS back and being able to transfer it. However, your
-voting power is immediately altered.
+you to get your EOS into your account balance in a liquid state. However, your
+voting power is immediately diminished.
 
 See also: the "system delegatebw" command.
 `,
