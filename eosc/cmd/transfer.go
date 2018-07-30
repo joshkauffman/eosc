@@ -11,7 +11,7 @@ import (
 
 var transferCmd = &cobra.Command{
 	Use:   "transfer [from] [to] [amount]",
-	Short: "Transfer from tokens from an account to another",
+	Short: "Transfer tokens from one account to another",
 	Args:  cobra.ExactArgs(3),
 	Run: func(cmd *cobra.Command, args []string) {
 
