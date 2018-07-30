@@ -11,7 +11,7 @@ import (
 
 var voteProducersCmd = &cobra.Command{
 	Use:   "producers [voter name] [producer list]",
-	Short: "Cast your vote for 1 to 30 producers. View them with 'list'",
+	Short: "Cast your vote for 1 to 30 producers. View complete list using 'eosc vote list'",
 	Args:  cobra.MinimumNArgs(2),
 	Run: func(cmd *cobra.Command, args []string) {
 
