@@ -141,8 +141,8 @@ With an `eosc-vault.json`, you can vote:
 
 ```
 $ eosc vote producers youraccount eoscanadacom someotherfavo riteproducer
+Voter [youraccount] voting for: [eoscanadacom] 
 Enter passphrase to unlock vault:
-Voter [youraccount] voting for: [eoscanadacom]
 Done
 ```
 
