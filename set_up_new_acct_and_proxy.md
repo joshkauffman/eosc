@@ -9,7 +9,9 @@ go get -u -v github.com/eoscanada/eosc/eosc
 Once unpacked, run:
 ```
 eosc vault create --keys [int]  // if you want eosc to create keys for you
+
 OR
+
 eosc vault create --import [PUBLIC KEY]  // if you have a public key/private key pair that you would like to encrypt into the vault
 ```
 By default, the vault file will be "./eosc-vault.json"
@@ -23,7 +25,8 @@ The design of EOS requires you to have an account to create an account. So we'll
 to use an already existing account on the EOS mainnet to create this new account.
 
 If your already existing account does not have an eosc vault file already,
-you can create one using the above `eosc vault create --import`.
+you can create one using the above 
+`eosc vault create --import`.
 
 To create the new account, run the command:
 ```
