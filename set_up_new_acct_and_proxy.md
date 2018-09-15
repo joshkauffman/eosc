@@ -1,7 +1,8 @@
 Use `eosc` to Create a New Account
 -------------------------------
 
-grab the latest version of eosc using
+grab the latest version of eosc from https://github.com/eoscanada/eosc/releases
+or within your terminal run:
 ```
 go get -u -v github.com/eoscanada/eosc/eosc
 ```
