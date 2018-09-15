@@ -1,3 +1,6 @@
+Use `eosc` to Create a New Account
+-------------------------------
+
 grab the latest version of eosc using
 ```
 go get -u -v github.com/eoscanada/eosc/eosc
@@ -42,6 +45,9 @@ Flags:
 The new account will require RAM. The current minimum is 3 KiB. By default eosc will purchase 8 KiB unless using 
 either the `--buy-ram` or `--buy-ram-kbytes` flags.
 You will now have the new account registered on the mainnet.
+
+How to Register Your New Account as a Proxy
+-------------------------------
 
 To register [NEW ACCOUNT] as a proxy, run this command:
 ```
