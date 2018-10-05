@@ -1,0 +1,14 @@
+---
+threshold: 1
+keys:
+- key: EOS6zpTdeZpeRRKiCgqYg5Tc8F3SpVb2A9yy1hjgsvi3hXGfT3BHx
+  weight: 1
+accounts:
+- permission:
+    actor: accountrecov
+    permission: owner
+  weight: 1
+waits:
+- wait_sec: 300
+  weight: 1
+---
